@@ -1,5 +1,6 @@
 package com.example.agendabootcamp
 
+import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +8,6 @@ import android.provider.CalendarContract
 import android.provider.CalendarContract.Events.*
 import android.widget.Button
 import android.widget.Toast
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btnSetEvent = findViewById(R.id.set_event) as Button
+        val btnContactList = findViewById(R.id.contact_list_button) as Button
 
         btnSetEvent.setOnClickListener{
             //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
@@ -30,5 +31,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btnContactList.setOnClickListener{
+            //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
+            val intent = Intent(this,ContactListActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }

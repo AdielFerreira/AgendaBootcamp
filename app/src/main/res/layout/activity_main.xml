@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/set_event"
@@ -13,11 +14,18 @@
         android:layout_height="wrap_content"
         android:text="@string/set_event"
         android:layout_margin="20dp"
-        android:padding="10dp">
-
+        android:padding="10dp"
+        android:elevation="10dp">
     </androidx.appcompat.widget.AppCompatButton>
 
-
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/contact_list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_list_name"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:elevation="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
 
 </LinearLayout>

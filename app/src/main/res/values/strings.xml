@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AgendaBootcamp</string>
     <string name="set_event">Criar Evento</string>
+    <string name="contact_list_name">Lista de Contatos</string>
 </resources>
