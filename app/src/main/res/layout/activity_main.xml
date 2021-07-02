@@ -28,4 +28,14 @@
         android:elevation="10dp">
     </androidx.appcompat.widget.AppCompatButton>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/photos_library_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/photos_library"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:elevation="10dp">
+    </androidx.appcompat.widget.AppCompatButton>
+
 </LinearLayout>

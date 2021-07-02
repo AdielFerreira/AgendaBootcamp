@@ -8,6 +8,7 @@ import android.provider.CalendarContract
 import android.provider.CalendarContract.Events.*
 import android.widget.Button
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,10 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnSetEvent = findViewById(R.id.set_event) as Button
-        val btnContactList = findViewById(R.id.contact_list_button) as Button
-
-        btnSetEvent.setOnClickListener{
+        set_event.setOnClickListener(){
             //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
 
             val intent = Intent(Intent.ACTION_INSERT)
@@ -31,11 +29,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnContactList.setOnClickListener{
+        contact_list_button.setOnClickListener{
             //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
             val intent = Intent(this,ContactListActivity::class.java)
             startActivity(intent)
 
+        }
+
+        photos_library_button.setOnClickListener{
+            //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
+            val intent = Intent(this,PhotosActivity::class.java)
+            startActivity(intent)
         }
     }
 }
