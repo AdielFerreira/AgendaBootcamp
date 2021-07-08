@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117966869874",
+    "project_id": "agendabootcamp-964f4",
+    "storage_bucket": "agendabootcamp-964f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117966869874:android:1c6455db7a4aaa6e2d79eb",
+        "android_client_info": {
+          "package_name": "com.example.agendabootcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117966869874-qutkf7pkfjr6tgvdejf738ukgflntf9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFq4rcazK7OV2XF7UjadPgPeCjl0BGNn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117966869874-qutkf7pkfjr6tgvdejf738ukgflntf9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
