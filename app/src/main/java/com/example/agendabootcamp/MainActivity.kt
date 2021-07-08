@@ -14,6 +14,12 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        var intent: Intent
+
+        intent = Intent(this,LoginActivity::class.java)
+        startActivity(intent)
+
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -31,14 +37,14 @@ class MainActivity : AppCompatActivity() {
 
         contact_list_button.setOnClickListener{
             //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
-            val intent = Intent(this,ContactListActivity::class.java)
+            intent = Intent(this,ContactListActivity::class.java)
             startActivity(intent)
 
         }
 
         photos_library_button.setOnClickListener{
             //Toast.makeText(this@MainActivity,"gomo corno",Toast.LENGTH_LONG).show()
-            val intent = Intent(this,PhotosActivity::class.java)
+            intent = Intent(this,PhotosActivity::class.java)
             startActivity(intent)
         }
     }

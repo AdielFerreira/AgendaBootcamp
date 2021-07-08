@@ -6,4 +6,9 @@
     <string name="content_description_image">Imagem a ser selecionada pelo usuario</string>
     <string name="image_selected">Selecione uma imagem</string>
     <string name="camera_button">Camera</string>
+    <string name="txt_slogan">Just Do It</string>
+    <string name="email">e-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Login</string>
+    <string name="forgot_password">Esqueci minha senha</string>
 </resources>
